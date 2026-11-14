@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="EcoStream interactive cloud sustainability demo. Explore sample resource telemetry, review recommendations and export reports.">
+  <meta name="theme-color" content="#142f28"><title>EcoStream · Cloud Sustainability Demo</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%23142f28'/%3E%3Cpath d='M31 8C17 5 8 11 10 23c2 8 11 9 16 3 4-5 3-11 5-18ZM8 33l15-17' fill='none' stroke='%23bde8a7' stroke-width='2'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+  <aside id="sidebar" class="sidebar" aria-label="Main navigation"></aside>
+  <div class="app"><header class="topbar"><button class="icon-button menu-toggle" id="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button><div id="breadcrumb">Workspace / Overview</div><div class="topbar-right"><span class="badge neutral">Sample data</span><span class="small">Nov 2026</span><button class="icon-button" data-action="help" aria-label="About this demo">?</button></div></header>
+    <main id="main" tabindex="-1"></main>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <dialog id="dialog" aria-labelledby="dialog-title"><div class="dialog-head"><h2 id="dialog-title"></h2><button class="icon-button" data-action="close-dialog" aria-label="Close dialog">×</button></div><div id="dialog-body"></div></dialog>
+  <script src="telemetry.js"></script>
+  <script src="app.js"></script>
+</body></html>
