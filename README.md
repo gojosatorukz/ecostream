@@ -2,6 +2,8 @@
 
 EcoStream is a classroom prototype for comparing estimated operational emissions and investigating low-utilisation cloud resources.
 
+**[Bekzat Rashiduly](https://github.com/gojosatorukz) — frontend prototype and product demo.** I worked on the browser demo and prepared the walkthrough for the team presentation.
+
 **[Open the live demo](https://gojosatorukz.github.io/ecostream/)**
 
 ## Demo walkthrough
